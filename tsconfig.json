@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // Helps with CJS and ESM
+    "skipLibCheck": true, // Skips type checking .d.ts
+    "target": "es2022", // JS version
+    "allowJs": true, // Allows for JS imports
+    "resolveJsonModule": true, // Allows for JSON imports
+    "moduleDetection": "force", // Force TS to consider all files as modules
+    "isolatedModules": true, // Prevent unsafe ts features
+    "verbatimModuleSyntax": true, // Force import and export syntax
+    /* Transpiling config */
+    "module": "NodeNext", // Module syntax.
+    "outDir": "./dist",
+    /* Strictness */
+    "strict": true, // Enable strict type checking
+    "noImplicitAny": true, // No anys
+    "strictFunctionTypes": true, // Strict params types in funcs
+    "noImplicitReturns": true, // Strict return types for funcs
+    "noUncheckedIndexedAccess": true, // Prevent access of arr or obj before defined check
+    "noImplicitOverride": true // Enforces class overriding
+  }
+}
