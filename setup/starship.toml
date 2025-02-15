@@ -14,8 +14,8 @@ format = '[⛵️ ($context) ](blue)'
 disabled = false
 
 [character]
-success_symbol = "[λ](bright-green)"
-error_symbol = "[λ](red)"
+success_symbol = "[λ ](bright-green)"
+error_symbol = "[λ ](red)"
 vimcmd_symbol = "[❮](green)"
 
 [git_branch]
